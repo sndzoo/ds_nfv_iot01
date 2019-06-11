@@ -86,6 +86,10 @@
   query: node_procs_running
 - name: hwnode_vmstat_pgfault
   query: rate(node_vmstat_pgfault[10s])
+- name: mosquitto_SYS_broker_bytes_received
+  query: mosquitto_SYS_broker_bytes_received
+- name: mosquitto_SYS_broker_bytes_sent
+  query: mosquitto_SYS_broker_bytes_sent
 - name: mosquitto_SYS_broker_clients_active
   query: mosquitto_SYS_broker_clients_active
 - name: mosquitto_SYS_broker_clients_connected
@@ -166,6 +170,8 @@
   query: mosquitto_SYS_broker_messages_stored
 - name: mosquitto_SYS_broker_publish_bytes_received
   query: mosquitto_SYS_broker_publish_bytes_received
+- name: mosquitto_SYS_broker_publish_bytes_sent
+  query: mosquitto_SYS_broker_publish_bytes_sent
 - name: mosquitto_SYS_broker_publish_messages_dropped
   query: mosquitto_SYS_broker_publish_messages_dropped
 - name: mosquitto_SYS_broker_publish_messages_received

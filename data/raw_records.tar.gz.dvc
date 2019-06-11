@@ -1,8 +1,8 @@
-md5: 0ecee53821b7f92da675644165c7f766
-outs:
-- cache: true
-  md5: 0e14ff58d1a58613907233f92bbfe5a6
-  metric: false
-  path: data/raw_records.tar.gz
-  persist: false
 wdir: ..
+outs:
+- path: data/raw_records.tar.gz
+  metric: false
+  cache: true
+  persist: false
+  md5: 2da49e9913e7228d77d9ad73fb1a4d6b
+md5: e5293b0160cd7da9a2314dc07489ab19
